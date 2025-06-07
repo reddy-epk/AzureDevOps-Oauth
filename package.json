@@ -1,0 +1,30 @@
+{
+  "name": "AzureDevOps-login",
+  "version": "1.0.0",
+  "description": "Microsoft Cloud Platform Azure DevOps Login Service",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "azure",
+    "devops",
+    "authentication",
+    "login"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.1.0",
+    "axios": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
